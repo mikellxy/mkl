@@ -85,7 +85,7 @@ func (d *Deployment) Create(projectID uint, color string) (*Deployment, error) {
 
 type Package struct {
 	Model
-	ProjectID uint   `gorm:"not null" json:"project_id"`
+	ProjectID uint   `gorm:"not null;index" json:"project_id"`
 	Tag       string `gorm:"not null;unique;" json:"tag"`
 	Port      uint32 `gorm:"not null" json:"port"`
 }

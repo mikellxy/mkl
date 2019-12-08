@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/jinzhu/gorm"
-	"github.com/mikellxy/mkl/api/panel/models"
+	"github.com/mikellxy/mkl/api/deploy/models"
 	"github.com/mikellxy/mkl/config"
 	"github.com/mikellxy/mkl/pkg/database"
 )
